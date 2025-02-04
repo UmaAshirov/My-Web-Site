@@ -18,5 +18,5 @@
 
 ## Полезные ссылки
 
-[Репозиторий проекта](https://github.com/your-username/your-repository)
+[Репозиторий проекта]([https://github.com/UmaAshirov/My-Web-Site])
 
