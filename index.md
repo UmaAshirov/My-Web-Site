@@ -1,3 +1,3 @@
 # Отчет проекта
 
-См. полный отчет: [report.md](report.md)
+См. полный отчет: [report.md](https://umaashirov.github.io/My-Web-Site/report.md)
