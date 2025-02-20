@@ -1,152 +1,152 @@
 const questions = [
     {
         question: "Как объявить переменную в JavaScript?",
-        answers: ["let", "var", "const", "Все варианты верны", "None"],
-        correct: 3
+        answers: ["let   ", "var", "const", "None"],
+        correct: 0
     },
     {
         question: "Каким методом можно вывести сообщение в консоль?",
-        answers: ["console.log()", "print()", "write()", "alert()", "log.console()"],
+        answers: ["console.log()   ", "print()", "write()", "alert()"],
         correct: 0
     },
     {
         question: "Как сложить два числа в JavaScript?",
-        answers: ["a + b", "a - b", "a * b", "a / b", "concat(a, b)"],
+        answers: ["a + b   ", "a - b", "a * b", "a / b"],
         correct: 0
     },
     {
         question: "Какой оператор используется для присваивания значения?",
-        answers: ["=", "==", "===", "!=", "+="],
+        answers: ["=   ", "==", "===", "!="],
         correct: 0
     },
     {
         question: "Какой тип данных представляет строку?",
-        answers: ["string", "number", "boolean", "object", "array"],
+        answers: ["string   ", "number", "boolean", "object"],
         correct: 0
     },
     {
         question: "Что делает оператор ===?",
-        answers: ["Сравнивает и тип, и значение", "Только сравнивает значения", "Используется для присваивания", "Является логическим оператором", "Ничего"],
+        answers: ["Сравнивает и тип, и значение   ", "Только сравнивает значения", "Используется для присваивания", "Является логическим оператором"],
         correct: 0
     },
     {
         question: "Как объявить массив в JavaScript?",
-        answers: ["let arr = [];", "let arr = {};", "let arr = new Array();", "Первый и третий варианты", "Все варианты верны"],
-        correct: 3
+        answers: ["let arr = []   ", "let arr = new Array()", "let arr = list()"],
+        correct: 0
     },
     {
         question: "Как узнать длину массива?",
-        answers: ["arr.length", "arr.size()", "arr.count", "arr.length()", "arr.len"],
+        answers: ["arr.length   ", "arr.size()", "arr.count", "arr.len"],
         correct: 0
     },
     {
         question: "Как добавить элемент в конец массива?",
-        answers: ["push()", "pop()", "shift()", "unshift()", "concat()"],
+        answers: ["push()   ", "pop()", "shift()", "unshift()"],
         correct: 0
     },
     {
         question: "Как создать функцию в JavaScript?",
-        answers: ["function myFunc() {}", "const myFunc = () => {}", "let myFunc = function() {}", "Все варианты верны", "Нет правильного варианта"],
-        correct: 3
+        answers: ["function myFunc() {}   ", "const myFunc = () => {}", "let myFunc = function() {}"],
+        correct: 0
     },
     {
         question: "Как вызвать функцию?",
-        answers: ["myFunc()", "call myFunc", "run(myFunc)", "execute myFunc()", "None"],
+        answers: ["myFunc()   ", "call myFunc", "run(myFunc)", "execute myFunc()"],
         correct: 0
     },
     {
         question: "Как получить остаток от деления?",
-        answers: ["%", "/", "//", "Math.mod()", "**"],
+        answers: ["%   ", "/", "Math.mod()", "**"],
         correct: 0
     },
     {
         question: "Как округлить число вверх?",
-        answers: ["Math.ceil()", "Math.floor()", "Math.round()", "Math.trunc()", "toFixed()"],
+        answers: ["Math.ceil()   ", "Math.floor()", "Math.round()", "Math.trunc()"],
         correct: 0
     },
     {
         question: "Как округлить число вниз?",
-        answers: ["Math.floor()", "Math.ceil()", "Math.round()", "Math.trunc()", "parseInt()"],
+        answers: ["Math.floor()   ", "Math.ceil()", "Math.round()", "Math.trunc()"],
         correct: 0
     },
     {
         question: "Как объединить строки?",
-        answers: ["concat()", "+", "join()", "split()", "replace()"],
+        answers: ["concat()   ", "+", "join()", "split()"],
         correct: 1
     },
     {
         question: "Как проверить, содержит ли строка подстроку?",
-        answers: ["includes()", "contains()", "has()", "match()", "search()"],
+        answers: ["includes()   ", "contains()", "has()", "match()"],
         correct: 0
     },
     {
         question: "Как сделать задержку выполнения кода?",
-        answers: ["setTimeout()", "setInterval()", "wait()", "pause()", "sleep()"],
+        answers: ["setTimeout()   ", "setInterval()", "wait()", "sleep()"],
         correct: 0
     },
     {
         question: "Как повторять код каждые 2 секунды?",
-        answers: ["setInterval()", "setTimeout()", "loop()", "repeat()", "wait()"],
+        answers: ["setInterval()   ", "setTimeout()", "loop()", "repeat()"],
         correct: 0
     },
     {
         question: "Какой оператор используется для логического 'И'?",
-        answers: ["&&", "||", "!", "&", "??"],
+        answers: ["&&   ", "||", "!", "&"],
         correct: 0
     },
     {
         question: "Как проверить тип переменной?",
-        answers: ["typeof", "instanceof", "isType()", "checkType()", "getType()"],
+        answers: ["typeof   ", "instanceof", "isType()", "getType()"],
         correct: 0
     },
     {
         question: "Как преобразовать строку в число?",
-        answers: ["parseInt()", "parseFloat()", "Number()", "Все варианты верны", "toString()"],
-        correct: 3
+        answers: ["parseInt()   ", "parseFloat()", "Number()"],
+        correct: 0
     },
     {
         question: "Как проверить, является ли значение NaN?",
-        answers: ["isNaN()", "typeof NaN", "NaN.check()", "Number.isNaN()", "Оба первый и четвертый"],
-        correct: 4
+        answers: ["isNaN()   ", "Number.isNaN()", "NaN.check()"],
+        correct: 0
     },
     {
         question: "Как создать объект?",
-        answers: ["let obj = {}", "let obj = []", "let obj = new Object()", "Первый и третий", "Все варианты"],
-        correct: 3
+        answers: ["let obj = {}   ", "let obj = new Object()"],
+        correct: 0
     },
     {
         question: "Как удалить свойство объекта?",
-        answers: ["delete obj.property", "remove obj.property", "obj.property = null", "unset obj.property", "obj.property.delete()"],
+        answers: ["delete obj.property   ", "obj.property = null", "unset obj.property"],
         correct: 0
     },
     {
         question: "Как получить текущую дату и время?",
-        answers: ["new Date()", "Date.now()", "getDate()", "currentDate()", "today()"],
+        answers: ["new Date()   ", "Date.now()", "getDate()"],
         correct: 0
     },
     {
         question: "Как проверить, является ли значение массивом?",
-        answers: ["Array.isArray()", "typeof array", "array instanceof Array", "Оба первый и третий", "Все варианты"],
-        correct: 3
+        answers: ["Array.isArray()   ", "typeof array", "array instanceof Array"],
+        correct: 0
     },
     {
         question: "Как проверить, пуст ли массив?",
-        answers: ["arr.length === 0", "arr.isEmpty()", "arr.count === 0", "arr === []", "arr == null"],
+        answers: ["arr.length === 0   ", "arr.isEmpty()", "arr.count === 0"],
         correct: 0
     },
     {
         question: "Как остановить выполнение цикла?",
-        answers: ["break", "continue", "exit", "stop", "return"],
+        answers: ["break   ", "continue", "exit", "stop"],
         correct: 0
     },
     {
         question: "Как пропустить одну итерацию цикла?",
-        answers: ["continue", "break", "skip", "pass", "next"],
+        answers: ["continue   ", "break", "skip", "pass"],
         correct: 0
     },
     {
         question: "Как сделать копию массива?",
-        answers: ["slice()", "copy()", "duplicate()", "clone()", "new Array()"],
+        answers: ["slice()   ", "copy()", "duplicate()", "clone()"],
         correct: 0
     }
 ];

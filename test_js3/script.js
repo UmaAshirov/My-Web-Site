@@ -1,155 +1,152 @@
 const questions = [
     {
         question: "Как объявить переменную, если её значение будет изменяться?",
-        answers: ["let", "const", "var", "function", "static"],
+        answers: ["let   ", "const", "var", "function", "static"],
         correct: 0
     },
     {
         question: "Как вывести сообщение в консоль?",
-        answers: ["console.log()", "alert()", "print()", "write()", "console.write()"],
+        answers: ["console.log()   ", "alert()", "print()", "write()"],
         correct: 0
     },
     {
         question: "Какой тип данных у числа?",
-        answers: ["number", "string", "boolean", "object", "array"],
+        answers: ["number   ", "string", "boolean", "object"],
         correct: 0
     },
     {
         question: "Как проверить равенство без приведения типов?",
-        answers: ["===", "==", "=", "!==", "!="],
+        answers: ["===   ", "==", "=", "!=="],
         correct: 0
     },
     {
         question: "Как создать пустой массив?",
-        answers: ["let arr = [];", "let arr = {};", "let arr = new Array();", "Первый и третий варианты", "Нет правильного ответа"],
-        correct: 3
+        answers: ["let arr = []   ", "let arr = new Array()"],
+        correct: 0
     },
     {
         question: "Как получить длину массива?",
-        answers: ["arr.length", "arr.count", "arr.size()", "arr.len()", "arr.length()"],
+        answers: ["arr.length   ", "arr.count", "arr.size()"],
         correct: 0
     },
     {
         question: "Как добавить элемент в конец массива?",
-        answers: ["push()", "pop()", "shift()", "unshift()", "append()"],
+        answers: ["push()   ", "pop()", "shift()", "unshift()"],
         correct: 0
     },
     {
         question: "Как объявить функцию?",
-        answers: ["function name() {}", "let name = function() {}", "const name = () => {}", "Все варианты верны", "Нет правильного ответа"],
-        correct: 3
+        answers: ["function name() {}   ", "let name = function() {}", "const name = () => {}"],
+        correct: 0
     },
     {
         question: "Как вызвать функцию?",
-        answers: ["name()", "call name", "run(name)", "execute name()", "start name()"],
+        answers: ["name()   ", "call name", "run(name)"],
         correct: 0
     },
     {
         question: "Как узнать тип переменной?",
-        answers: ["typeof", "instanceof", "getType()", "checkType()", "varType()"],
+        answers: ["typeof   ", "instanceof", "getType()"],
         correct: 0
     },
     {
         question: "Как создать объект?",
-        answers: ["let obj = {};", "let obj = new Object();", "let obj = [];", "Первый и второй варианты", "Нет правильного ответа"],
-        correct: 3
+        answers: ["let obj = {}   ", "let obj = new Object()"],
+        correct: 0
     },
     {
         question: "Как получить доступ к свойству объекта?",
-        answers: ["obj.property", "obj[\"property\"]", "Оба варианта верны", "obj->property", "obj(property)"],
-        correct: 2
+        answers: ["obj.property   ", "obj[\"property\"]"],
+        correct: 0
     },
     {
         question: "Как удалить свойство объекта?",
-        answers: ["delete obj.property", "remove obj.property", "unset obj.property", "obj.property = null", "obj.property.delete()"],
+        answers: ["delete obj.property   ", "obj.property = null"],
         correct: 0
     },
     {
         question: "Как проверить, является ли переменная массивом?",
-        answers: ["Array.isArray(arr)", "arr instanceof Array", "typeof arr === 'array'", "Оба первый и второй", "Нет правильного ответа"],
-        correct: 3
+        answers: ["Array.isArray(arr)   ", "arr instanceof Array"],
+        correct: 0
     },
     {
         question: "Как объединить строки?",
-        answers: ["'Hello' + ' World'", "concat()", "join()", "Все варианты верны", "Нет правильного ответа"],
-        correct: 3
+        answers: ["'Hello' + ' World'   ", "concat()", "join()"],
+        correct: 0
     },
     {
         question: "Как создать задержку выполнения кода?",
-        answers: ["setTimeout()", "setInterval()", "wait()", "pause()", "sleep()"],
+        answers: ["setTimeout()   ", "setInterval()", "wait()"],
         correct: 0
     },
     {
         question: "Какой оператор используется для логического 'ИЛИ'?",
-        answers: ["||", "&&", "!", "&", "??"],
+        answers: ["||   ", "&&", "!"],
         correct: 0
     },
     {
         question: "Какое значение возвращает confirm() при нажатии 'ОК'?",
-        answers: ["true", "false", "null", "undefined", "1"],
+        answers: ["true   ", "false", "null"],
         correct: 0
     },
     {
         question: "Как преобразовать строку в число?",
-        answers: ["parseInt()", "parseFloat()", "Number()", "Оба первый и второй", "Все варианты верны"],
-        correct: 4
+        answers: ["parseInt()   ", "parseFloat()", "Number()"],
+        correct: 0
     },
     {
         question: "Как проверить, является ли значение NaN?",
-        answers: ["isNaN()", "typeof NaN", "Number.isNaN()", "Оба первый и третий", "Все варианты верны"],
-        correct: 3
+        answers: ["isNaN()   ", "Number.isNaN()"],
+        correct: 0
     },
     {
         question: "Как получить текущую дату?",
-        answers: ["new Date()", "Date.now()", "getDate()", "currentDate()", "today()"],
+        answers: ["new Date()   ", "Date.now()"],
         correct: 0
     },
     {
         question: "Как получить случайное число от 0 до 1?",
-        answers: ["Math.random()", "random()", "Math.rnd()", "generateRandom()", "rand()"],
+        answers: ["Math.random()   ", "random()"],
         correct: 0
     },
     {
         question: "Как округлить число вверх?",
-        answers: ["Math.ceil()", "Math.floor()", "Math.round()", "Math.trunc()", "parseInt()"],
+        answers: ["Math.ceil()   ", "Math.floor()"],
         correct: 0
     },
     {
         question: "Как округлить число вниз?",
-        answers: ["Math.floor()", "Math.ceil()", "Math.round()", "Math.trunc()", "parseInt()"],
+        answers: ["Math.floor()   ", "Math.ceil()"],
         correct: 0
     },
     {
         question: "Как проверить, пуст ли массив?",
-        answers: ["arr.length === 0", "arr.isEmpty()", "arr.count === 0", "arr == []", "arr == null"],
+        answers: ["arr.length === 0   ", "arr.isEmpty()"],
         correct: 0
     },
     {
         question: "Как остановить выполнение цикла?",
-        answers: ["break", "continue", "exit", "stop", "return"],
-        correct: 0
+        answers: ["break   ", "continue"]
     },
     {
         question: "Как пропустить одну итерацию цикла?",
-        answers: ["continue", "break", "skip", "pass", "next"],
-        correct: 0
-    },
-    {
-        question: "Как пропустить одну итерацию цикла?",
-        answers: ["continue", "break", "skip", "pass", "next"],
-        correct: 0
+        answers: ["continue   ", "break"]
     },
     {
         question: "Как соединить два массива?",
-        answers: ["concat()", "join()", "merge()", "combine()", "append()"],
-        correct: 0
+        answers: ["concat()   ", "join()"]
     },
     {
         question: "Как получить первый элемент массива?",
-        answers: ["arr[0]", "arr.first()", "arr.get(0)", "arr.first", "arr.begin()"],
-        correct: 0
+        answers: ["arr[0]   ", "arr.first()"]
+    },
+    {
+        question: "Как удалить последний элемент массива?",
+        answers: ["arr.pop()   ", "arr.removeLast()"]
     }
 ];
+
+
 
 
 const quizForm = document.getElementById("quiz-form");

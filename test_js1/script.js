@@ -1,152 +1,152 @@
 const questions = [
     {
         question: "Что выведет console.log(2 + '2')?",
-        answers: ["22", "4", "NaN", "undefined", "TypeError"],
+        answers: ["22   ", "4", "NaN", "undefined", "TypeError"],
         correct: 0
     },
     {
         question: "Каким ключевым словом объявляется переменная, которую можно изменять?",
-        answers: ["let", "const", "var", "function", "mutable"],
+        answers: ["let   ", "const", "var", "function", "mutable"],
         correct: 0
     },
     {
         question: "Какой метод используется для вывода информации в консоль?",
-        answers: ["console.log()", "console.write()", "console.display()", "print.console()", "log.console()"],
+        answers: ["console.log()   ", "console.write()", "console.display()", "print.console()", "log.console()"],
         correct: 0
     },
     {
         question: "Что выведет console.log(typeof null)?",
-        answers: ["object", "null", "undefined", "number", "boolean"],
+        answers: ["object   ", "null", "undefined", "number", "boolean"],
         correct: 0
     },
     {
         question: "Какой оператор используется для строгого сравнения (учитывая тип данных)?",
-        answers: ["===", "==", "=", "!=", "!=="],
-        correct: 0
-    },
-    {
-        question: "Что выведет console.log(5 > 3 > 1)?",
-        answers: ["false", "true", "1", "undefined", "NaN"],
-        correct: 0
-    },
-    {
-        question: "Какой метод массива используется для добавления элемента в конец?",
-        answers: ["push()", "pop()", "shift()", "unshift()", "concat()"],
-        correct: 0
-    },
-    {
-        question: "Что делает setTimeout(function() { console.log('Hello'); }, 2000)?",
-        answers: ["Выведет 'Hello' через 2 секунды", "Выведет 'Hello' сразу", "Выдаст ошибку", "Остановит выполнение скрипта на 2 секунды", "Будет выполняться бесконечно"],
-        correct: 0
-    },
-    {
-        question: "Какой тип данных у переменной let x = true?",
-        answers: ["boolean", "string", "number", "object", "null"],
-        correct: 0
-    },
-    {
-        question: "Какой цикл используется для перебора свойств объекта?",
-        answers: ["for...in", "for...of", "while", "do...while", "foreach"],
-        correct: 0
-    },
-    {
-        question: "Какой синтаксис используется для создания цикла while?",
-        answers: ["while (условие) { тело цикла }", "for (условие) { тело цикла }", "do { тело цикла } while (условие);", "while { тело цикла } (условие);", "if (условие) { тело цикла }"],
-        correct: 0
-    },
-    {
-        question: "Какой цикл удобнее использовать, если известно точное количество итераций?",
-        answers: ["for", "while", "do...while", "foreach", "for...in"],
-        correct: 0
-    },
-    {
-        question: "Как объявить функцию в JavaScript?",
-        answers: ["function myFunction() { }", "const myFunction = () => { }", "let myFunction = function() { }", "Все варианты верны", "function = myFunction() { }"],
-        correct: 3
-    },
-    {
-        question: "Как передавать параметры в функцию?",
-        answers: ["В круглых скобках после имени функции", "В фигурных скобках", "Через запятую после вызова функции", "Используя оператор return", "Параметры передаются автоматически"],
-        correct: 0
-    },
-    {
-        question: "Как вернуть значение из функции?",
-        answers: ["С помощью return", "С помощью console.log", "С помощью alert", "С помощью throw", "Функции не могут возвращать значения"],
-        correct: 0
-    },
-    {
-        question: "Какой символ используется для объявления стрелочной функции?",
-        answers: ["=>", "->", "<-", "=", "**"],
-        correct: 0
-    },
-    {
-        question: "Как создать объект в JavaScript?",
-        answers: ["let obj = {};", "let obj = [];", "let obj = new Object();", "Оба верны", "Ни один не верен"],
-        correct: 3
-    },
-    {
-        question: "Как получить доступ к свойству объекта?",
-        answers: ["obj.property", "obj[\"property\"]", "obj->property", "Оба верны", "Только первый вариант"],
-        correct: 3
-    },
-    {
-        question: "Как добавить метод в объект?",
-        answers: ["obj.method = function() {}", "obj.method() = {}", "obj::method = function() {}", "method obj() {}", "Методы нельзя добавлять в объект"],
-        correct: 0
-    },
-    {
-        question: "Как вставить переменную в строку при интерполяции?",
-        answers: ["Использовать `${}` внутри шаблонных строк", "Использовать \" + переменная + \"", "Использовать &{}", "Никак", "Использовать @{}"],
-        correct: 0
-    },
-    {
-        question: "Как получить символ строки по индексу?",
-        answers: ["str[index]", "str.charAt(index)", "Оба верны", "str.get(index)", "str[index] или str(index)"],
-        correct: 2
-    },
-    {
-        question: "Как получить длину строки?",
-        answers: ["str.length", "str.size", "str.count", "str.getLength()", "str.len"],
-        correct: 0
-    },
-    {
-        question: "Как округлить число вниз?",
-        answers: ["Math.floor(num)", "Math.ceil(num)", "Math.round(num)", "Math.truncate(num)", "Math.min(num)"],
+        answers: ["===   ", "==", "=", "!=", "!=="],
         correct: 0
     },
     {
         question: "Как создать массив?",
-        answers: ["let arr = []", "let arr = new Array()", "Оба верны", "let arr = { }", "let arr = list()"],
-        correct: 2
-    },
-    {
-        question: "Что делает метод slice()?",
-        answers: ["Создаёт копию части массива", "Добавляет элемент в конец массива", "Изменяет текущий массив", "Объединяет массивы", "Удаляет элементы из массива"],
+        answers: ["let arr = []   ", "let arr = new Array()", "let arr = {}", "let arr = list()"],
         correct: 0
     },
     {
-        question: "Что делает метод concat()?",
-        answers: ["Объединяет массивы", "Удаляет элементы массива", "Изменяет текущий массив", "Возвращает первый элемент", "Делает копию части массива"],
+        question: "Как объединить два массива?",
+        answers: ["concat()  ", "merge()", "join()", "append()"],
         correct: 0
     },
     {
-        question: "Что делает метод split()?",
-        answers: ["Разделяет строку на массив", "Объединяет массив в строку", "Удаляет пробелы в строке", "Изменяет строку", "Добавляет символы в строку"],
+        question: "Как получить случайное число от 0 до 1?",
+        answers: ["Math.random()   ", "random()", "generateRandom()", "rand()"],
         correct: 0
     },
     {
-        question: "Что делает метод map()?",
-        answers: ["Создаёт новый массив, изменяя элементы", "Фильтрует массив", "Изменяет существующий массив", "Удаляет элементы из массива", "Проверяет наличие элемента в массиве"],
+        question: "Как округлить число вверх?",
+        answers: ["Math.ceil()   ", "Math.floor()", "Math.round()", "Math.trunc()"],
         correct: 0
     },
     {
-        question: "Что делает метод filter()?",
-        answers: ["Фильтрует массив по условию", "Изменяет каждый элемент массива", "Сортирует массив", "Разделяет массив", "Объединяет массивы"],
+        question: "Как проверить, содержит ли массив элемент?",
+        answers: ["arr.includes(elem)   ", "arr.has(elem)", "arr.contains(elem)", "arr.exists(elem)"],
         correct: 0
     },
     {
-        question: "Что делает метод includes()?",
-        answers: ["Проверяет наличие элемента в массиве", "Фильтрует массив", "Добавляет элемент в массив", "Удаляет элемент из массива", "Создаёт копию части массива"],
+        question: "Как получить текущую дату?",
+        answers: ["new Date()   ", "Date.now()", "getDate()", "currentDate()"],
+        correct: 0
+    },
+    {
+        question: "Как создать копию массива?",
+        answers: ["slice()   ", "copy()", "duplicate()", "clone()"],
+        correct: 0
+    },
+    {
+        question: "Как удалить последний элемент массива?",
+        answers: ["arr.pop()   ", "arr.removeLast()", "arr.deleteLast()", "arr.splice(-1)"],
+        correct: 0
+    },
+    {
+        question: "Как остановить выполнение цикла?",
+        answers: ["break   ", "continue", "exit", "stop"],
+        correct: 0
+    },
+    {
+        question: "Как проверить, пуст ли массив?",
+        answers: ["arr.length === 0   ", "arr.isEmpty()", "arr.count === 0", "arr == []"],
+        correct: 0
+    },
+    {
+        question: "Как преобразовать строку в число?",
+        answers: ["parseInt()   ", "parseFloat()", "Number()", "toNumber()"],
+        correct: 0
+    },
+    {
+        question: "Как проверить, является ли значение NaN?",
+        answers: ["isNaN()   ", "Number.isNaN()", "typeof NaN", "NaN.check()"],
+        correct: 0
+    },
+    {
+        question: "Как перевести строку в верхний регистр?",
+        answers: ["toUpperCase()   ", "toLowerCase()", "capitalize()", "upper()"],
+        correct: 0
+    },
+    {
+        question: "Как перевести строку в нижний регистр?",
+        answers: ["toLowerCase()   ", "toUpperCase()", "lower()", "downcase()"],
+        correct: 0
+    },
+    {
+        question: "Как проверить длину массива?",
+        answers: ["arr.length   ", "arr.count", "arr.size", "arr.len"],
+        correct: 0
+    },
+    {
+        question: "Как заменить подстроку в строке?",
+        answers: ["replace()   ", "sub()", "change()", "edit()"],
+        correct: 0
+    },
+    {
+        question: "Как разделить строку на массив по разделителю?",
+        answers: ["split()   ", "divide()", "slice()", "cut()"],
+        correct: 0
+    },
+    {
+        question: "Как получить текущую дату и время?",
+        answers: ["new Date()   ", "Date.now()", "getDate()"],
+        correct: 0
+    },
+    {
+        question: "Как проверить, является ли значение массивом?",
+        answers: ["Array.isArray()   ", "typeof array", "array instanceof Array"],
+        correct: 0
+    },
+    {
+        question: "Как проверить, пуст ли массив?",
+        answers: ["arr.length === 0   ", "arr.isEmpty()", "arr.count === 0"],
+        correct: 0
+    },
+    {
+        question: "Как остановить выполнение цикла?",
+        answers: ["break   ", "continue", "exit", "stop"],
+        correct: 0
+    },
+    {
+        question: "Как объединить массив в строку?",
+        answers: ["join()   ", "merge()", "concat()", "combine()"],
+        correct: 0
+    },
+    {
+        question: "Как добавить элемент в начало массива?",
+        answers: ["unshift()   ", "push()", "append()", "prepend()"],
+        correct: 0
+    },
+    {
+        question: "Как получить первый элемент массива?",
+        answers: ["arr[0]   ", "arr.first()", "arr.head()", "arr.begin()"],
+        correct: 0
+    },
+    {
+        question: "Как проверить, является ли переменная массивом?",
+        answers: ["Array.isArray()   ", "typeof arr === 'array'", "instanceof Array", "isArray(arr)"],
         correct: 0
     }
 ];
